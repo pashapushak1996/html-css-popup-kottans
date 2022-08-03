@@ -243,7 +243,7 @@ input[type="reset"],
 input[type="submit"] {
   -webkit-appearance: button; /* 2 */
   cursor: pointer; /* 3 */
-  *overflow: visible;  /* 4 */
+  *overflow: visible; /* 4 */
 }
 
 /**
@@ -355,4 +355,30 @@ textarea {
   resize: vertical;
 }
 
+li {
+  list-style: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+//General settings
+
+html {
+  height: 100%;
+  font-family: 'Uchen', serif;
+}
+
+img {
+  max-width: 100%;
+}
+
 //Variables
+
+$grey-2: #333333;
+$white: #FFFFFF;
+
+$blue-1: #88b7d5;
+$grey-1: #5e5e5e;
+
