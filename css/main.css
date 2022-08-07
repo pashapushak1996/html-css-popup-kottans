@@ -830,7 +830,7 @@ body {
   position: absolute;
   top: 45px;
   right: -73px;
-  border: 1px solid #5e5e5e;
+  border: 2px solid #5e5e5e;
   background: #FFFFFF;
   box-shadow: 0px 5px 43px -15px #4d4d4d;
 }
@@ -858,8 +858,8 @@ body {
 .popup:before {
   border-color: rgba(94, 94, 94, 0);
   border-bottom-color: #5e5e5e;
-  border-width: 11px;
-  margin-left: -11px;
+  border-width: 13px;
+  margin-left: -13px;
 }
 .popup__items {
   display: grid;

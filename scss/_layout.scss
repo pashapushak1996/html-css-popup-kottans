@@ -109,7 +109,7 @@ body {
   top: 45px;
   right: -73px;
 
-  border: 1px solid $grey-1;
+  border: 2px solid $grey-1;
 
   background: #FFFFFF;
 
@@ -147,8 +147,8 @@ body {
   &:before {
     border-color: rgba(94, 94, 94, 0);
     border-bottom-color: $grey-1;
-    border-width: 11px;
-    margin-left: -11px;
+    border-width: 13px;
+    margin-left: -13px;
   }
 
   &__items {
