@@ -111,8 +111,6 @@ audio:not([controls]) {
  *    user zoom.
  */
 html {
-  font-size: 100%;
-  /* 1 */
   -webkit-text-size-adjust: 100%;
   /* 2 */
   -ms-text-size-adjust: 100%;
@@ -364,6 +362,7 @@ li {
 html {
   height: 100%;
   font-family: "Uchen", serif;
+  font-size: 62.5%;
 }
 
 img {
@@ -483,8 +482,6 @@ audio:not([controls]) {
  *    user zoom.
  */
 html {
-  font-size: 100%;
-  /* 1 */
   -webkit-text-size-adjust: 100%;
   /* 2 */
   -ms-text-size-adjust: 100%;
@@ -736,6 +733,7 @@ li {
 html {
   height: 100%;
   font-family: "Uchen", serif;
+  font-size: 62.5%;
 }
 
 img {
@@ -759,16 +757,17 @@ body {
 .header {
   display: flex;
   justify-content: flex-end;
-  padding: 20px;
+  padding: 2rem;
 }
 .header__list {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 2rem;
 }
 .header__link {
   color: #333333;
   text-decoration: none;
+  font-size: 1.6rem;
 }
 .header__link:focus {
   outline: none;
@@ -779,15 +778,15 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 25px;
-  height: 25px;
+  width: 2.5rem;
+  height: 2.5rem;
 }
 .header__profile {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 25px;
-  height: 25px;
+  width: 2.5rem;
+  height: 2.5rem;
   border-radius: 50%;
 }
 
@@ -818,20 +817,21 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 24px;
-  height: 24px;
+  width: 2.4rem;
+  height: 2.4rem;
 }
 
 .popup {
   display: none;
   flex-direction: column;
-  width: 340px;
-  max-height: 450px;
+  width: 34rem;
+  max-height: 45rem;
   position: absolute;
-  top: 45px;
-  right: -73px;
+  top: 4.5rem;
+  right: -7.3rem;
   border: 2px solid #5e5e5e;
   background: #FFFFFF;
+  font-size: 1.6rem;
   box-shadow: 0px 5px 43px -15px #4d4d4d;
 }
 .popup__inner {
@@ -865,13 +865,13 @@ body {
   display: grid;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 1rem;
   grid-template-columns: repeat(auto-fit, 80px);
   padding: 20px;
 }
 .popup__btn-more {
   display: block;
-  padding: 10px;
+  padding: 1rem;
   background-color: #88b7d5;
   text-align: center;
 }
@@ -890,7 +890,7 @@ body {
 }
 input:checked ~ .popup__text {
   display: block;
-  padding: 20px;
+  padding: 2rem;
   text-align: center;
 }
 .popup__item {
@@ -898,11 +898,11 @@ input:checked ~ .popup__text {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 10px;
-  padding: 10px;
+  gap: 1rem;
+  padding: 1rem;
   min-height: 0;
-  max-height: 80px;
-  border-radius: 5px;
+  max-height: 8rem;
+  border-radius: 0.5rem;
   text-decoration: none;
   color: #333333;
 }
@@ -914,8 +914,8 @@ input:checked ~ .popup__text {
   box-shadow: 0 0 0 2px #88b7d5;
 }
 .popup__image {
-  width: 45px;
-  height: 45px;
+  width: 4.5rem;
+  height: 4.5rem;
 }
 
 /*# sourceMappingURL=main.css.map */
