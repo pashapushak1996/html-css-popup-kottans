@@ -163,6 +163,7 @@ body {
 
   .popup__items_hidden {
     display: none;
+    border-top: 2px solid $grey-1;
   }
 
   input:checked ~ .popup__items_hidden {

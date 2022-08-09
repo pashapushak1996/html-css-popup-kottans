@@ -868,6 +868,7 @@ body {
 }
 .popup .popup__items_hidden {
   display: none;
+  border-top: 2px solid #5e5e5e;
 }
 .popup input:checked ~ .popup__items_hidden {
   display: grid;
