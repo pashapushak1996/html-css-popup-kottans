@@ -190,13 +190,13 @@ body {
     display: none;
   }
 
-  &__text {
+  &__link {
     display: none;
-
-
+    color: $grey-1;
+    text-decoration: none;
   }
 
-  input:checked ~ &__text {
+  input:checked ~ &__link {
     display: block;
 
     padding: 2rem;

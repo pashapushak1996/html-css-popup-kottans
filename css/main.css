@@ -885,10 +885,12 @@ body {
 .popup input:checked ~ label {
   display: none;
 }
-.popup__text {
+.popup__link {
   display: none;
+  color: #5e5e5e;
+  text-decoration: none;
 }
-input:checked ~ .popup__text {
+input:checked ~ .popup__link {
   display: block;
   padding: 2rem;
   text-align: center;
