@@ -95,6 +95,18 @@ body {
 
     width: 2.4rem;
     height: 2.4rem;
+
+    &:before {
+      content: "";
+      position: absolute;
+      bottom: -100%;
+      left: 7%;
+      z-index: 100;
+      display: block;
+      width: 18px;
+      height: 2px;
+      background-color: #FFFFFF;
+    }
   }
 
 }

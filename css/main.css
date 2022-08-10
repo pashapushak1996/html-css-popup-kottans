@@ -820,6 +820,17 @@ body {
   width: 2.4rem;
   height: 2.4rem;
 }
+.header__list li:nth-child(3) .app-icon:before {
+  content: "";
+  position: absolute;
+  bottom: -100%;
+  left: 7%;
+  z-index: 100;
+  display: block;
+  width: 18px;
+  height: 2px;
+  background-color: #FFFFFF;
+}
 
 .popup {
   display: none;
