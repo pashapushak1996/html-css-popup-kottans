@@ -38,7 +38,8 @@ body {
     }
   }
 
-  &__link_notify {
+  &__link_notify,
+  &__profile {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,24 +49,18 @@ body {
   }
 
   &__profile {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    width: 2.5rem;
-    height: 2.5rem;
-
     border-radius: 50%;
   }
 }
 
-.header__list li:nth-child(3) {
+.header__list li {
   position: relative;
 
   input {
     position: absolute;
     top: 0;
     left: 0;
+
 
     height: 0;
     width: 0;

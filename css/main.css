@@ -774,7 +774,7 @@ body {
   border-radius: 1px;
   box-shadow: 0 0 0 2px #88b7d5;
 }
-.header__link_notify {
+.header__link_notify, .header__profile {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -782,18 +782,13 @@ body {
   height: 2.5rem;
 }
 .header__profile {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 2.5rem;
-  height: 2.5rem;
   border-radius: 50%;
 }
 
-.header__list li:nth-child(3) {
+.header__list li {
   position: relative;
 }
-.header__list li:nth-child(3) input {
+.header__list li input {
   position: absolute;
   top: 0;
   left: 0;
@@ -802,25 +797,25 @@ body {
   -webkit-appearance: none;
   appearance: none;
 }
-.header__list li:nth-child(3) input:checked ~ .popup {
+.header__list li input:checked ~ .popup {
   display: flex;
 }
-.header__list li:nth-child(3) input:focus + label {
+.header__list li input:focus + label {
   outline: none;
   border-radius: 1px;
   box-shadow: 0 0 0 2px #88b7d5;
 }
-.header__list li:nth-child(3) label {
+.header__list li label {
   cursor: pointer;
 }
-.header__list li:nth-child(3) .app-icon {
+.header__list li .app-icon {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 2.4rem;
   height: 2.4rem;
 }
-.header__list li:nth-child(3) .app-icon:before {
+.header__list li .app-icon:before {
   content: "";
   position: absolute;
   bottom: -100%;
