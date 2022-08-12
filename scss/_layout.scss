@@ -38,8 +38,7 @@ body {
     }
   }
 
-  &__link_notify,
-  &__profile {
+  &__link_notify {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,6 +48,7 @@ body {
   }
 
   &__profile {
+    @extend .header__link_notify;
     border-radius: 50%;
   }
 }
